@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY</title>
+    <link rel="stylesheet" href="mysheet.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify_logo.png" alt="Spotify">Spotify</li>
+            <li style="margin-top: 25px;">Home </li>
+            <li style="margin-top: 25px;">About </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Best of NCS-No Copyright Sounds</h1>
+<div class="SongList"></div>
+<div class="songItem" style="margin-top:60px; " >
+    <img alt="1">
+    <span class="songName">Let me Love You</span>
+    <span class="songlistplay"><span class="timestamp">03:26 <i id="0" class=" far songItemPlay fa-play-circle"></i></span></span>  
+</div>
+<div class="songItem" style="margin-top:120px; ">
+<img alt="2">
+<span class="songName">Blank Space</span>
+<span class="songlistplay"><span class="timestamp">03:51 <i id="1" class=" far songItemPlay fa-play-circle"></i></span></span>
+</div>
+<div class="songItem" style="margin-top:180px; ">
+    <img alt="3">
+    <span class="songName">A Thousand Years</span>
+    <span class="songlistplay"><span class="timestamp">04:47 <i id="2" class=" far songItemPlay fa-play-circle"></i></span></span>
+    </div>
+    <div class="songItem" style="margin-top:240px; ">
+        <img alt="4">
+        <span class="songName">Bari</span>
+        <span class="songlistplay"><span class="timestamp">03:55 <i id="3" class=" far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem" style="margin-top:300px; ">
+            <img alt="5">
+            <span class="songName">Perfect</span>
+            <span class="songlistplay"><span class="timestamp">04:23 <i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem" style="margin-top:360px; ">
+                <img alt="6">
+                <span class="songName">We Found Love</span>
+                <span class="songlistplay"><span class="timestamp">03:35<i id="5" class=" far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem" style="margin-top:420px; ">
+                    <img alt="7">
+                    <span class="songName">Alone</span>
+                    <span class="songlistplay"><span class="timestamp">03:19 <i id="6" class=" far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem" style="margin-top:480px; ">
+                        <img alt="8">
+                        <span class="songName">Kesariya</span>
+                        <span class="songlistplay"><span class="timestamp">04:28 <i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+                        </div>
+<div class="SongBanner"></div>
+</div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fs-3x fa-step-backward"></i>
+            <i class="fas fs-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fs-3x fa-step-forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt=" " id="gif">Let me Love You-Justin Bieber
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/720a451e3e.js" crossorigin="anonymous"></script>
+    <script src="myscript.js"></script>
+</body>
+</html>
